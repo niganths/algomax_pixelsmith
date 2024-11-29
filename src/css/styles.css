@@ -1,0 +1,44 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Additional dark mode styling */
+  .dark-mode .your-component {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  .light-mode .your-component {
+    background-color: #f9f9f9;
+    color: #000000;
+  }
+  /* Light Mode */
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Add optional styles for buttons, inputs, etc. */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
